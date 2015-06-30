@@ -1,0 +1,258 @@
+PREVIOUS EXAMPLE SOLUTION
+
+INSPIRE FOR MAIN THINGS LIKE IMPORTING THE RESET FILE, DOING THE MAIN PROCEDURES AND HOW WE SHOULD
+HANDLE CERTAIN TYPES OF ELEMENTS. BUT THEN OBV. WRITE YOUR OWN CODE.
+
+
+*{
+	box-sizing: border-box;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body{
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5em;
+	color: #d9d8d9;
+	background: url(../img/background.jpg) center center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #7b787c;
+}
+
+
+
+.container{
+	position: relative;
+	width: 70%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+h1, h2, h3, time{
+	font-family: Teko, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 1.2em;
+}
+
+h1{
+	font-size: 120px;
+	letter-spacing: 12px;
+	margin-bottom: 48px;
+}
+
+h2{
+	font-size: 30px;
+	margin-bottom: 28px;
+}
+
+h3{
+	font-size: 20px;
+	margin-bottom: 16px;
+}
+
+.logo{
+	float:left;
+}
+
+.navigation li {
+	display:inline-block;
+	float:right;
+	padding: 20px 20px;
+}
+
+.navigation a {
+	font-size: 16px;
+	color: #b9b7b9 ;
+	text-decoration: none;
+
+}
+
+.navigation .active a {
+	color: #f7f7f7;
+}
+
+.top_bar {
+	height:70px;
+}
+
+.hero_container{
+	
+}
+
+.title {
+	margin-bottom:200px;
+}
+.title h1{
+	font-size:120px;
+	margin-top: 330px;
+	margin-bottom:30px;
+	letter-spacing: 17px;
+	color:#ffffff;
+	text-align:center;
+}
+
+.title p{
+	font-size: 22px;
+	font-color: #dad5d2;
+	margin: 0px auto;
+	text-align: center;
+	width:63%;
+	line-height:150%;
+	margin-bottom: 55px;
+
+}
+
+.title a{
+	margin: 0px 500px;
+	text-align: center;
+	padding: 15px 50px;
+	background-color: white;
+
+	text-decoration: none;
+	font-family: Teko, Helvetica, Arial, sans-serif;
+	font-size:18px;
+	text-transform: uppercase;
+	color:black;
+	display:block;
+}
+
+/*GOTTA MAKE THE SLIDESHOWS THINGS WORK
+*/
+.slideshow{
+	padding:2px;
+	background-color:#eee;
+	display:inline-block;
+}
+
+main{
+	background-color:#fff;
+}
+
+main h2 {
+	font-family: Teko, Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	color: black;
+	padding: 35px 0px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.work_clearfix article{
+	margin-bottom:30px;
+}
+/*ALL TESLA           . THIS SHOULD ALL BE MORE STRAIGHTFORWARD BUT AIN'T GOT TIME AND EXPERIENCING
+SOME ISSUES WHEN SETTING ALL THE DIFFERENT ARTICLE SETTINGS AT SAME TIME. CAN EDIT LATER
+
+*/
+.tesla {
+	float:left;
+	width:50%;
+	text-align: center;
+}
+
+.tesla  h3 {
+	color:black;
+	font-size:30px;
+	letter-spacing: 2px;
+	margin: 10px 0px;
+}
+
+
+.tesla p {
+	color:black;
+	font-size:14px;
+	width:60%;
+	margin:0px auto;
+}
+
+/*ALL CURIOSITY
+*/
+
+.curiosity {
+	float:right;
+	width:50%;
+	text-align: center;
+}
+
+
+.curiosity  h3 {
+	color:black;
+	font-size:30px;
+	letter-spacing: 2px;
+	margin: 10px 0px;
+}
+
+
+.curiosity p {
+	color:black;
+	font-size:14px;
+	width:60%;
+	margin:0px auto;
+}
+
+
+/*ALL STURHLING
+*/
+
+.sturhling {
+	float:left;
+	width:50%;
+	text-align: center;
+}
+
+
+.sturhling  h3 {
+	color:black;
+	font-size:30px;
+	letter-spacing: 2px;
+	margin: 10px 0px;
+}
+
+.sturhling p {
+	color:black;
+	font-size:14px;
+	width:60%;
+	margin:0px auto;
+}
+
+/*ALL PENGUIN
+*/
+
+.penguin {
+	float:right;
+	width:50%;
+	text-align: center;
+}
+
+
+.penguin  h3 {
+	color:black;
+	font-size:30px;
+	letter-spacing: 2px;
+	margin: 10px 0px;
+}
+
+.penguin p {
+	color:black;
+	font-size:14px;
+	width:60%;
+	margin:0px auto;
+}
+
+.cta {
+	background-color: #f63c3c;
+}
+
+.cta h2 {
+	color:white;
+}
